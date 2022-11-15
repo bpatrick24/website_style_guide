@@ -1,0 +1,91 @@
+section {
+  border: 1px solid black;
+  height: 40vw;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  display: inline;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: bold;
+}
+
+a:link {
+  background-color: white;
+  color: black;
+}
+
+a:visited {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+.color-boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#colors-title {
+  position: absolute;
+  left: 20px;
+  top: 75px;
+}
+
+#colors {
+  display: flex;
+}
+
+.box {
+  border: 1px solid black;
+  height: 150px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+
+.azure {
+  background-color: azure;
+}
+
+.dark-slate-grey {
+  background-color: darkslategray;
+}
+
+.dark-cyan {
+  background-color: darkcyan;
+}
+
+.deep-pink {
+  background-color: deeppink;
+}
+
+.yellow-green {
+  background-color: yellowgreen;
+}
+
+.tan {
+  background-color: tan;
+}
